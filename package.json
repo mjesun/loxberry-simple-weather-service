@@ -1,0 +1,15 @@
+{
+  "name": "loxberry-simple-weather-service",
+  "version": "1.0.0",
+  "description": "LoxBerry plugin for emulating a simple weather service",
+  "main": "bin/service/index.js",
+  "scripts": {
+    "prettier": "prettier --write '**/*.{js,md}'",
+    "zip": "zip -r -9 master bin config daemon icons uninstall webfrontend plugin.cfg preupgrade.sh"
+  },
+  "author": "Miguel Jimenez <mjesun@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
