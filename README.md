@@ -1,17 +1,18 @@
 # LoxBerry Plugin - Simple Weather Service
 
-Simple weather service to import weather data into the Loxone Miniserver. It
-requires the dnsmasq plugin installed in the LoxBerry and configured to
-redirect `weather.loxone.com` to it. A [weatherbit.io](https://weatherbit.io)
-API key is required to properly function. The key must later be inserted in the
-plugin page, and a restart is required.
+Simple weather service is a plugin that can be used to import weather data into
+the Loxone Miniserver. It requires the dnsmasq plugin installed in the LoxBerry
+and configured to redirect `weather.loxone.com` to it. A
+[weatherbit.io](https://weatherbit.io) API key is required to properly
+function. The key must later be inserted in the plugin page, and a restart is
+required.
 
 If you need more functionality, the Weather4Loxone plugin is a great
 alternative, which also includes its own web visualization.
 
 ## Motivation
 
-While Weather4Lox exists (and it's a wonderful plugin!), the idea of this
+While Weather4Loxone exists (and it's a wonderful plugin!), the idea of this
 plugin is to bring its configuration to minimum required, and provide a server
 that runs in the LoxBerry as opposed to a cronjob approach. This ensures that
 the most up to date weather data is provided to the Loxone Miniserver by the
