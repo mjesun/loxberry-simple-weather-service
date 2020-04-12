@@ -1,4 +1,4 @@
 #!/bin/bash
 
-REPLACELBPBINDIR/index.sh
+REPLACELBPBINDIR/index.sh &
 exit 0
